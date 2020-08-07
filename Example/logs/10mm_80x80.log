@@ -212,3 +212,7 @@
 800inputs+26560outputs (18major+172078minor)pagefaults 0swaps
 6.80user 0.62system 0:04.25elapsed 174%CPU (0avgtext+0avgdata 96296maxresident)k
 176inputs+26552outputs (10major+182086minor)pagefaults 0swaps
+6.61user 0.63system 0:03.08elapsed 235%CPU (0avgtext+0avgdata 96312maxresident)k
+8inputs+26560outputs (6major+186727minor)pagefaults 0swaps
+6.56user 0.60system 0:02.92elapsed 245%CPU (0avgtext+0avgdata 96324maxresident)k
+0inputs+26560outputs (6major+176801minor)pagefaults 0swaps
