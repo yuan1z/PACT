@@ -1,4 +1,4 @@
-# PACT: A Standard Cell Level to Architectural Level Parrallel Compact Thermal Simulator
+# PACT: A Standard Cell Level to Architectural Level Parallel Compact Thermal Simulator
 # Introduction
 PACT is a SPICE-based PArallel Compact Thermal simulator (PACT) that enables fast and accurate standard cell level to architectural level steady-state and transient parallel thermal simulation. PACT utilizes the advantages of multi-core processing (OpenMPI) and includes several solvers to speed up both steady-state and transient simulations. PACT can be easily extended to model a variety of emerging integration and cooling technologies, such as 3D stacking, liquid cooling via microchannels, and others, by simply modifying the thermal netlist. PACT can be also used with popular architectural level performance and power simulators to evaluate the thermal profile. 
 
@@ -37,20 +37,15 @@ For users who want to run parallel thermal simualtions with PACT, one need to in
 
 * https://www.open-mpi.org/
 
-It's recommended to use Linux and macOS to run PACT. To enable sequential and parallel thermal simulation with PACT on Windows, users have to user __Cygwin__ to build the __Xyce 6.12__ and __OpenMPI 3.1.4__ and run PACT using __Cygwin__ terminal. __Cygwin__ download link:
+It's recommended to use Linux and macOS to run PACT. To enable sequential and parallel thermal simulation with PACT on Windows, users have to use __Cygwin__ to build the __Xyce 6.12__ and __OpenMPI 3.1.4__ and run PACT using __Cygwin__ terminal. __Cygwin__ download link:
 
 * https://www.cygwin.com/
 
 
 If __Xyce 6.12__ and __OpenMPI 3.1.4__ have already been installed in your Linux server, then you can simply load the following dependencies to load Xyce and OpenMPI.
 ```
-module load python3/3.6.5
-module load gcc/5.5.0
-module load fftw/3.3.8
-module load netcdf/4.6.1
-module load blis/0.6.0
-module load openmpi/3.1.4
-module load xyce/6.12
+module load python3/3.6.5 gcc/5.5.0 fftw/3.3.8 netcdf/4.6.1 blis/0.6.0 openmpi/3.1.4 xyce/6.12
+
 ```
 
 
