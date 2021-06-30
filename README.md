@@ -196,15 +196,15 @@ Here layer0 is the processor and layer1 is the cooling package.
 
 # Developers:
 
-* Prachi Shukla
+* Prachi Shukla (Boston University)
+ 
+* Zihao Yuan (Boston University)
 
-* Zihao Yuan
+* Sofiane Chetoui (Brown University)
 
-* Carlton Knox
+* Carlton Knox (Boston University)
 
-* Sofiane Chetoui
-
-* Sean Nemtzow 
+* Sean Nemtzow (Boston University)
 
 If you have any questions regarding PACT, please send emails to yuan1z@bu.edu.
 
